@@ -1,0 +1,14 @@
+1)
+Jonah Usadi
+
+2)
+-Not every string edge case is supported
+    e.g. echo "hey ""jude"
+
+-Input with invalid quotation marks will automatically fail the entire line of input
+    e.g. echo """; pwd
+    Even though pwd is valid, the whole line fails and nothing is executed
+
+-Builtin commands work in parallel mode
+
+-In parallel mode, builtin command "cd" runs in the parent process (different from a normal shell)
